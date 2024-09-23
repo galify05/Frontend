@@ -1,0 +1,48 @@
+* {
+    color: rgb(93, 93, 93);
+}
+
+h1 {
+    color: rgb(255, 20, 98);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.css-heading {
+    color: rgb(255, 20, 98);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.css-link {
+    text-decoration: none; /*убрать подчеркивание*/
+    color: rgb(255, 169, 57);
+}
+
+/*
+ul a{
+    color: rgb(246, 246, 60);
+}
+    */
+
+.img-no-line {
+    width: 500px;
+}
+
+.css-list-item {
+    font-style: italic;
+    color: rgb(176, 5, 5);
+}
+
+.css-priority {
+    text-decoration: underline; /* подчеркнуть*/
+    color: rgb(0, 255, 110);
+}
+/* чем ниже, тем приоритетнее*/

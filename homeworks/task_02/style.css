@@ -1,0 +1,30 @@
+button {
+    background-color: #778d45;
+    border: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    padding: 50px 40px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    background-color: #aec09a;
+    border: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    padding: 50px 40px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+}

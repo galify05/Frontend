@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+h1{
+    color: rgb(91, 124, 0);
+}
+.img_1_size{
+    width: 300px;
+}
+
+.img_2_size{
+    width: 50px;
+}
+
+.img_3_size{
+    width: 800px;
+}
+
+/* -----кнопки---------*/
+
+button a{
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: bold;
+    color: black;
+}
+.col_size{
+    width: 400px;
+}
+
+.color_txt{
+    color:rgb(133, 190, 0);
+    text-decoration: underline;
+}
+.txt_style{
+    font-style: italic;
+    font-weight: bold;
+}
