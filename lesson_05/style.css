@@ -1,35 +1,29 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-
-body{
+body {
     margin: 0;
 }
 
-
-h1{
+h1 {
     margin-bottom: 10px;
 }
-
 
 header {
     width: 100%;
     height: 80px;
-/*  */
-/* position: fixed; */
+    /*  */
+    /* position: fixed; */
     position: sticky;
-/*  */
+    /*  */
     top: 00px;
     background-color: rgb(179, 206, 255);
-
 }
 
-
-main{
+main {
     padding: 0 50px;
 }
-
 
 /* .div-init{
     width: 100%;
@@ -37,20 +31,19 @@ main{
 
 } */
 
-.square{
-    position: relative ;
- 
+.square {
+    position: relative;
+
     width: 150px;
     height: 150px;
     background-color: rgb(255, 199, 255);
-    ;
 }
-.eee{
+.eee {
     position: sticky;
     top: 400px;
-   background-color: #d14444;  
+    background-color: #d14444;
 }
-.rrr{
+.rrr {
     display: flex;
     justify-content: center;
     align-items: center;

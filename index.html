@@ -3,46 +3,93 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
 
         <title>Frontend course</title>
     </head>
     <body>
-        <h1 style="margin-left: 40px">Frontend course</h1>
+        <div class="content">
+            <h1>Frontend course</h1>
 
-        <table>
-            <td>
-                <ol>
-                    <p>Лекции:</p>
-                    <li><a href="./lesson_01/index.html"> HTML intro</a></li>
-                    <li><a href="./lesson_02/index.html"> CSS intro</a></li>
-                    <li><a href="./lesson_03/index.html">CSS box-model</a></li>
-                    <li><a href="./lesson_04/index.html">Flexbox</a></li>
-                    <li><a href="./lesson_05/index.html">les5</a></li>
-                </ol>
-            </td>
-            <td>
-                <ol>
-                    <p>Домашки:</p>
-                    <li>
-                        <a href="./homeworks/vizitka/index.html"
-                            >Saitama</a
-                        >
-                    </li>
-                    <li><a href="./homeworks/task_01/index.html">Text</a></li>
-                    <li>
-                        <a href="./homeworks/task_02/index.html">Buttons</a>
-                    </li>
+            <section class="with-two-position">
+                <div class="lections works-boxing">
+                    <ol>
+                        <p>Лекции:</p>
+                        <li >
+                            <a href="./lesson_01/index.html"> HTML intro</a>
+                        </li>
+                        <li><a href="./lesson_02/index.html"> CSS intro</a></li>
+                        <li>
+                            <a href="./lesson_03/index.html">CSS box-model</a>
+                        </li>
+                        <li><a href="./lesson_04/index.html">Flexbox</a></li>
+                        <li><a href="./lesson_05/index.html">Position</a></li>
+                        <li>
+                            <a href="./lesson_06/index.html">CSS grid layout</a>
+                        </li>
+                    </ol>
+                </div>
 
-                    <li>
-                        <a
-                            href="./homeworks/task_03/index.html"
-                            >Шапка сайта</a
-                        >
-                    </li>
-                    <li><a href="./homeworks/task_05/index.html"> Movie rate</a></li>
-                </ol>
-            </td>
-        </table>
-        <td><img style="width: 400px" src="./giphy.webp" alt="Ы" /></td>
+                <div class="homeworks works-boxing">
+                    <ol>
+                        <p>Домашки:</p>
+                        <li>
+                            <a href="./homeworks/vizitka/index.html">Saitama</a>
+                        </li>
+                        <li>
+                            <a href="./homeworks/task_01/index.html">Text</a>
+                        </li>
+                        <li>
+                            <a href="./homeworks/task_02/index.html">Buttons</a>
+                        </li>
+                        <li>
+                            <a href="./homeworks/task_03/index.html"
+                                >Шапка сайта</a
+                            >
+                        </li>
+                        <li>
+                            <a href="./homeworks/task_05/index.html">
+                                Movie rate</a
+                            >
+                        </li>
+
+                        <li>
+<a href="./homeworks/task_06/">Сектка карточек</a>
+
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <div class="social">
+                <a href="https://github.com/galify05">
+                    <img class="icons" src="./images/github.png" alt="github-logo"
+                /></a>
+
+                <a href="https://t.me/Dharmainc">
+                    <img
+                        class="icons"
+                        src="./images/telegram.png"
+                        alt="telegram-logo"
+                    />
+                </a>
+
+                <a href="https://www.facebook.com/">
+                    <img
+                        class="icons"
+                        src="./images/facebook.png"
+                        alt="facebook-logo"
+                    />
+                </a>
+
+                <a href="https://www.instagram.com/">
+                    <img
+                        class="icons"
+                        src="./images/instagram.png"
+                        alt="instagram-logo"
+                    />
+                </a>
+            </div>
+        </div>
     </body>
 </html>
