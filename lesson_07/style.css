@@ -23,6 +23,12 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
+.sixtenthpx{
+    font-size: 12px;
+}
+.sixtenthpx-two{
+    font-size: 15px;
+}
 
 /* *************** */
 
@@ -211,7 +217,6 @@ main {
 
 .wrapper {
     position: relative;
-    padding: 100px 10%;
 
     display: flex;
     justify-content: center;
@@ -221,12 +226,13 @@ main {
     background-color: rgb(245, 245, 245);
 }
 .first-foot {
+    margin: 0% 5%;
     margin-top: 1px;
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 10px;
     color: black;
 }
 
@@ -239,27 +245,35 @@ footer {
 }
 
 .links-foot {
-    margin: 0% 10%;
+    /* margin: 0% 5%;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(6, minmax(150px, 1fr));
+    gap: 10px;
+} */
+margin: 0% 5%;
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 10px;
 }
 .logo-berlin {
-    margin: 20px 30px;
+    margin: 20px 0px 0px 30px;
     width: 120px;
 }
 .bla-bla-bla {
-    margin: 30px 0px 80px 10%;
-    /* margin-top: 30px;
-    margin-left: 10%; */
+    margin: 15px 0px 80px 10%;
     width: 100%;
 }
 .colems {
+    margin-top: 50px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 20px;
+    gap: 10px;
 }
 
 .start-button {
@@ -270,6 +284,10 @@ footer {
     height: 22px;
     display: flex;
     justify-content: end;
+}
+.colemss{
+    display: flex;
+    justify-content: center;
 }
 /* <!-- --------------------------------------------------------------------------------------------------- --> */
 
