@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ************** */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.blac-link {
+    font-size: 15px;
+    color: black;
+}
+.blacks {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* *************** */
+
+/* <!-- header --------------------------------------------------------------------------------------------------- --> */
+.logo-seit {
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    width: 100%;
+}
+.lgo {
+    margin-left: 20px;
+    width: 100px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+}
+
+.left-punkt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.resize-left-menu-font {
+    font-size: 20px;
+}
+
+.twos-punk {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 50px;
+}
+.center-punkt {
+    display: flex;
+    gap: 50px;
+}
+
+.right-punkt {
+    margin-right: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: black;
+}
+.icons-txt {
+    font-size: 12px;
+}
+.right-buttons {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+/* <!--  main  ------------------- body -------------------------------------------------------------------------------- --> */
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-photo {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url(./images/4.png.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.txt-general-photo {
+    position: absolute;
+    bottom: 50px;
+    left: 10%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px black;
+}
+
+.flex-container {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-with-two-containers {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.title-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+}
+.txt-bold {
+    font-weight: bold;
+}
+.txt-title {
+    margin: 10px 0px;
+}
+
+.container-grid {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    margin: 20px 0px;
+    grid-auto-rows: auto;
+}
+.grid-item {
+    min-width: 313px;
+    position: relative;
+    gap: 15px;
+}
+
+.cards-img {
+    width: 100%;
+}
+.lol {
+    opacity: 30%;
+    font-size: 10px;
+}
+.red-button {
+    width: 36px;
+    height: 36px;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+.red-button-style {
+    position: absolute;
+    right: 0px;
+}
+.arrow {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.arrow-start {
+    color: rgb(255, 255, 255);
+}
+
+.red-button-start {
+    width: 22px;
+    height: 22px;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+/* <!-- --------------------------------------------------------------------------------------------------- --> */
+
+.wrapper {
+    position: relative;
+    padding: 100px 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 375px;
+    background-color: rgb(245, 245, 245);
+}
+.first-foot {
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+.links-foot {
+    margin: 0% 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.logo-berlin {
+    margin: 20px 30px;
+    width: 120px;
+}
+.bla-bla-bla {
+    margin: 30px 0px 80px 10%;
+    /* margin-top: 30px;
+    margin-left: 10%; */
+    width: 100%;
+}
+.colems {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.start-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 150px;
+    height: 22px;
+    display: flex;
+    justify-content: end;
+}
+/* <!-- --------------------------------------------------------------------------------------------------- --> */
+
+@media (max-width: 1100px) {
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 750px) {
+    .container-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .center-punkt {
+        display: none;
+    }
+    .resize-left-menu-font-litle {
+        font-size: 15px;
+    }
+}
