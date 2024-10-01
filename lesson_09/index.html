@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--2й способ с атрибутом <script defer src="script.js"></script> -->
+    <title>Dom intro</title>
+</head>
+<body>
+    <h2>Lesson 9: </h2>
+    <p id="desc">Document object model </p>
+    <p id="desc-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis saepe ut itaque vitae, quo voluptas, repellat iure asperiores, aliquid id suscipit optio? Veritatis velit officiis tempore sint alias consequatur non.</p>
+<p>Чтоб находить элементы в dom, нужно добавить им что-то уникальное. класс или id</p>
+
+<ul class="method-list ">
+    <li>По тегам - <span >getElementsByTagName</span></li>
+    <li>По классам - <span >getElementsByClassName</span></li>
+    <li>По id - <span >getElementById</span></li>
+    <li>Универсальный метод - <span>querySelector</span> - класс уточняется через точку
+    </li>
+</ul>
+
+<div>
+    <button class="btn change-heading" id="btn-change-heading">Change heqading color</button>
+    <button class="btn hide-list" id="btn-hide-list">Hide list</button>
+    <button class="btn create-element" id="btn-create-element">Create element</button>
+</div>
+
+
+
+    <!--   1й способ <script src="script.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
