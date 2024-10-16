@@ -10,7 +10,7 @@ let j = 0;
 const weekdayBlock = document.querySelector(".weekDay-block");
 
 async function nikitaWeather() {
-  const res = await fetch("http://api.weatherapi.com/v1/current.json?key=e4b09edc0aae4a3cb7782230241610&q=Berlin&aqi=no");
+  const res = await fetch("https://api.weatherapi.com/v1/current.json?key=e4b09edc0aae4a3cb7782230241610&q=Berlin&aqi=no");
   const data = await res.json();
 
   const icon = data.current.condition.icon;
@@ -28,7 +28,7 @@ async function nikitaWeather() {
   `;
  
   const res2 = await fetch(
-    "http://api.weatherapi.com/v1/forecast.json?key=45292927a9414bd2a4a82210241610&q=Berlin&days=7&aqi=no&alerts=no"
+    "https://api.weatherapi.com/v1/forecast.json?key=45292927a9414bd2a4a82210241610&q=Berlin&days=7&aqi=no&alerts=no"
   );
   const data2 = await res2.json();
   console.log(data2);
