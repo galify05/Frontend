@@ -20,6 +20,9 @@ const dima = {
     age: 53,
 };
 
+const arrr = [...names, ...ages];
+console.log(arrr);
+
 const arr = [marie, alex, elena, dima];
 console.log(arr);
 console.log();
@@ -56,7 +59,8 @@ const car = {
     brand: "Mazda",
     model: "RX-7",
     year: 1996,
-    isElectric: "no",
+    isElectric: false,
+    getcarInfo: () => ` ${car.brand} ${car.model} ${car.year}`
 };
 
 const keys = Object.keys(car);
@@ -67,4 +71,9 @@ console.log(values);
 
 car.getCarinfo = ` ${car.brand} ${car.model} ${car.year}`;
 console.log(car.getCarinfo);
-// for....in?
+
+
+ for (let key in car){
+    console.log(`key: ${key}, value:${car[key]}`);
+ }
+ 
